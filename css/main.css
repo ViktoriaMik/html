@@ -1,0 +1,46 @@
+*{
+    text-decoration: none;  
+}
+
+    
+
+h3 {color: rgb(168, 14, 45);}
+#vika {color: rgb(16, 90, 90);}  
+
+h4.hhh {background-color: rgb(207, 109, 76);}
+h5 i {
+    background-color: rgb(80, 18, 51);
+    color: rgb(26, 202, 26);}
+p { background-color: hotpink;}
+p#example:first-letter{
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(188, 231, 46);}
+p#example:first-line {
+    color: rgb(52, 52, 158);
+    background-color: rgb(153, 219, 86);
+}
+.name:first-letter {
+    color:orange;
+    background-color:cadetblue;
+    }
+.name:hover{
+    color:rgb(69, 69, 206)
+}
+
+
+.posyl {
+    color: rgb(195, 55, 144);
+    text-decoration:none ;
+    /* не підкреслювати знизу */
+}
+.posyl1:hover{
+    color: rgb(28, 195, 70);
+    background-color: cyan;
+}
+.posyl2:active{
+    color: darkorange;
+    background-color: darkseagreen;
+}
+.was:visited{
+    color: rgb(197, 65, 136);
+}

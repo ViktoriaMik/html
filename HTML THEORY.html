@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theory HTML</title>
+    
+</head>
+<body>
+    Модуль 1
+<!-- HTML5
+1. Введение.
+2. Doctype. Кодировка.
+3. HTML теги и атрибуты.
+4. Создание текстовых блоков, добавление ссылок и размещение картинок.
+5. Табличная и блочные верстки.
+6. HTML Forms
+7. HTML Semantics
+8. HTML response images. Picture тег.
+9. HTML accessibility. -->
+<p>Все про мета дані</p>
+    <ol>
+        <a href="https://developer.mozilla.org/ru/docs/Learn/HTML/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B2_HTML/The_head_metadata_in_HTML">Мета дані теорія</a>
+    </ol>
+<p>РОбота з текстом </p>
+    <ol>
+         <li> <h1>Заголовок 1</h1></li>
+        <li><h2>Заголовок 2</h2></li>
+        <li> <h3>Заголовок 3</h3></li>
+        <li><h4>Заголовок 4</h4></li>
+        <li><h5>Заголовок 5</h5></li>
+        <li><h6>Заголовок 6</h6></li>
+    </ol>
+    <ul>
+    <p> Просто текст </p>
+        <p> Просто <b>жирний шрифт</b> текст </p>  <!--Жирний шрифт-->
+        <p> <strong>Просто текст </strong></p> <!-- Жирний шрифт-->
+        <strong> <p> Просто текст </p></strong>
+        <p> <i>Просто текст </i> </p> <!--КУРСИВ-->
+         <em><p> Просто текст </p> </em>  <!--КУРСИВ-->
+        <p> <strike>Просто текст </strike> </p>  <!--ПЕРЕКРЕСЛЕНИЙ -->
+        H<sub>2</sub>O <!--в одному рядку-->
+        a<sup>2</sup><br>
+        H<sub>2</sub>O<br> <!--перенос по абзацам одиночним тегом-->
+        a<sup>2</sup>     
+        <p>H<sub>2</sub>O</p> <!--нижче основного рядку-->
+         <p> a<sup>2</sup> </p><!--вище основного рядку-->
+        <p><abbr> HTML</abbr></p><!-- аБРЕВЫАТУРА-->
+        <abbr title="HyperText Markup Language — мова розмітки гіпертексту"> HTML</abbr>
+    </ul>
+
+<h4>Робота зі списками</h4><!-- 5 відео урок -->
+    <!-- список -->
+    <ol start="1" type="I"> 
+        <!-- нумерований список -->
+        <li> молоко</li>
+        <li> <em>машинку</em></li>
+        <li>сир</li>
+        </ol>
+    <ol start="2" type="1">
+        <li> молоко</li>
+     <li> <big>машинку</big></li>
+     <li>сир</li>
+    </ol>
+    <ol start="3" type="i">
+        <li> <b>молоко</b></li>
+        <li> машинку</li>
+        <li>сир</li>
+    </ol>
+    <ul type="square">
+         <li>молоко</li>
+        <li>капуста  </li>
+        <li>хліб</li>
+    </ul>
+<h4 title="video 8">8 – Создание ссылок. Разные типы ссылок в HTML</h4>
+    <a href ="#bottomofpage">Перейти вниз</a> <!--ЯКІР--><br>
+    <a Href ='https://google.com' target="_blank"title ="нажми на мене">Перейти</a><!--Посилання на сайт-->
+        <!-- target="_blank"  відкрити посилання в іншій вкладці--><br>
+
+    <a href ="hometask1.html">Перейти за посиланнямна вкладку</a><br>
+    <a name="bottomofpage"></a>
+     <a href="mailto:victoriamik2015@gmail.com">Написати на пошту</a>
+ <!--title - используется для создания всплывающих подсказок при наведении мыши;
+        target - указывает формат открытия ссылки (в этом окне, в другом и так далее);
+        href - указывается путь к странице, на которую введет ссылка; -->
+<h4 title="video 9">#9 – Работа с изображениями</h4>
+    <img src="https://inlviv.in.ua/wp-content/uploads/2018/06/kava-zi-spetsiyamy-marokko.jpg"
+    width =500px height =auto  title="кава" alt="кава"> <!--посилання на картинку з інтернету-->
+    <img src ="unnamed.jpg" title="cofe"width =500px><!-- Посилання на карт з папки проекту-->
+    <img src ="Folder/948c84e0654ada309f1392266661c5d4.jpg"width =500px>
+    <video src="https://www.youtube.com/watch?v=VlWE8eCz5dE&t=26s" controls ></video> 
+
+
+
+    <h4 title="video10">#10 – Создание HTML таблиц: ряды, столбцы, ячейки
+   <a href="https://html5book.ru/html-table/">посилання на додаткові матеріали</a> 
+   <table border="2" width="500" align="center">
+    <thead>
+        <tr>
+        <th>Рядок 1</th>
+        <th>РЯдок2</th>
+        <th>Рядок3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td> значення 1</td>
+        <td> значення 2</td>
+        <td> значення 3</td>
+        </tr>   
+        <tr>
+        <td> значення 1</td>
+        <td> значення 2</td>
+        <td> значення 3</td>
+        </tr>   
+        <tr>
+        <td> значення 1</td>
+        <td> значення 2</td>
+        <td> значення 3</td>
+        </tr>   
+        <tr>
+        <td> значення 1</td>
+        <td> значення 2</td>
+        <td> значення 3</td>
+        </tr>   
+    </tbody>
+        </table>
+
+        <table border="3" width="500"align="center">
+           
+                <tr>
+                 <td rowspan="4">заголовок</td>   <!-- rowspan обєднує декілька ячейок -->
+                <td>ячейка1</td>
+                </tr>
+            
+                 <tr>                        
+                 <td>ячейка2</td>
+                </tr>
+                <tr>                        
+                <td>ячейка3</td>
+                </tr>
+                <tr>                        
+                 <td>ячейка4</td>
+                </tr>
+            
+         </table><br><br>
+
+        <table border="3" width="500"align="center">
+               <thead>
+                       <tr>
+                            <th colspan="4">заголовок</th>   <!-- rowspan обєднує декілька ячейок -->
+                </thead>
+                     </tr>
+            </thead>
+                <tbody> 
+                 <tr>
+
+                    <td>ячейка1</td>
+                    <td>ячейка1</td>
+                </tr>
+                <tr>                        
+                    <td>ячейка2</td>
+                    <td>ячейка2</td>
+                </tr>
+                <tr>                        
+                    <td>ячейка3</td>
+                    <td>ячейка3</td>
+                </tr>
+                <tr>                        
+                    <td>ячейка4</td>
+                    <td>ячейка4</td>
+                </tr>
+                </tbody>
+            </table>
+
+
+<h4>#11 – Теги для подключения файлов</h4>  
+        <!-- Теги дляПідключення файлів -->
+        <script src="js/main.js"></script>
+        <!---- підключення js Прописувати можна і в head і в body> -->
+        <!-- Прописується тільки в HEAD  /css підключення стилів -->
+        <link rel="stylesheets" href="css/main.css">
+
+  <h4>#14 – Поле для ввода текста. Тег для создания кнопки </h4>
+  <!-- <form action="" method="GET"> -->
+    <label for="user" >Введіть ваше ім'я</label>
+    <input name="user" id="user" type="text" placeholder="Введіть" maxlength="18"> <br>
+<!-- <form action="" method="GET">  -->
+    <!-- action=""Посилання на сервер де буде оброблтись інормація
+    method="GET"/ "post"методи передачі інформації-->
+    <label for="username">Введіть ваше  ПРізвище</label>
+    <input type="text" placeholder="Введіть" value="Мік" name="username"> <br>
+    </form>
+    <input type="number"><br>
+    <input type="password"><br>
+    <input type="color"><br>
+    <input type="date"><br>
+    <input type="checkbox"><br>
+    <input type="radio"><br>
+    <input type="radio" name="state">
+    <input type="radio" name="state">
+    <br>
+    <input type="file">
+    <input type="button">
+    <input type="submit" value="Відправити ">
+    <input type="reset" value="очистити">    
+</form>
+ 
+
+<h4> #15 – Селекторы выбора информации</h4>
+<select >
+    <option >1</option>
+    <option >2</option>
+    <!-- за замовчуванням буде показаний перший варіант -->
+    <option selected >25</option>
+    <option>3</option>
+    <!-- неактивне поле -->
+    <option disabled>5236</option> 
+</select>
+      
+<!-- multiple можна обрати кілька варіантів
+size ск варіантів буде доступних для вибору -->
+<select multiple size="3">
+    <option >1</option>
+    <option >2</option>
+    <!-- за замовчуванням буде показаний перший варіант -->
+    <option selected >25</option>
+    <option>3</option>
+    <!-- неактивне поле -->
+    <option disabled>5236</option> 
+</select>
+        
+<h4>#16 – Специальные HTML5 теги</h4>
+        <!-- будова Коду для css структури  -->
+        <head>Шапка</head>
+        <main>Основна частина  </main>
+        <aside>Бокова частина</aside>
+        <footer>Низ сайту</footer>
+        
+        <progress max="100" value="12"></progress>
+        <details>
+            <summary>Детальніше</summary>
+            Значення цього об*єкту=12%
+        </details> 
+    </body>
+    </html>

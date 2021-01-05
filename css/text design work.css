@@ -1,0 +1,69 @@
+#design {
+  font-size: 1.1em;
+  font-family: cursive;
+  font-weight: 400;
+}
+h2.work {
+  color: deeppink;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: fantasy;
+}
+h3.line {
+  /* розміщення тексту по ширині */
+  text-align: justify;
+  /* Відступ від початку строки */
+  text-indent: 1.3em;
+}
+h3.line:active {
+  color: forestgreen;
+  background-color: greenyellow;
+  text-transform: lowercase;
+}
+h4.capital {
+  text-transform: capitalize;
+}
+h4.capital1 {
+  text-transform: uppercase;
+}
+h4.capital2 {
+  text-transform: lowercase;
+}
+h4.capital3 {
+  /* інтервали між словами  */
+  word-spacing: 15px;
+}
+h5 {
+  /* інтервали між рядками  */
+  line-height: 120%;
+}
+h6 {
+  font-size: 18px;
+  word-spacing: 15px;
+  border: 2px solid hotpink;
+  height: 45px;
+  border-radius: 50px;
+}
+h5.letter {
+  font-size: 28px;
+  letter-spacing: 10px;
+  border: 12px dotted hotpink;
+  height: 63px;
+}
+h6.word {
+  font-size: 10px;
+  border: 5px dashed #1b0912;
+  height: 25px;
+  width: 260px;
+  /* ВВЕРХ ПРАВО НИЗ ЛІВО */
+  margin: 10px 15px 21px 14px;
+  padding: 10px;
+}
+
+#headblock {
+  width: 100%;
+  height: 70px;
+  background-color: khaki;
+  border-bottom: lawngreen;
+  border-top: 2px double silver;
+}
